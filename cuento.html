@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cuento</title>
+</head>
+<link rel="stylesheet" type="text/css" href="index.css">
+<center ><font face="arial" size=15 color="#FAFAFA"  >El Bosque Encantado</font></center><br>
+<body class="fondo">
+	<div class="f">
+		<div onclick="document.getElementById('ok1').play()">
+<video id="ok1" class="c1" preload="auto" volume="50"/>
+<source src="nube.mp4" type="video/mp4" />
+</video>
+ </div>
+ <div onclick="document.getElementById('ok5').play()">
+<video id="ok5" class="c9" preload="auto" volume="50"/>
+<source src="nube.mp4" type="video/mp4" />
+</video>
+ </div>
+<div class="po">
+
+<div onclick="document.getElementById('ok2').play(); ocultar();">
+<video id="ok2" class="c2" preload="auto" volume="50"/>
+<source src="hongo.mp4" type="video/mp4" />
+</video>
+ <div class="u" id="mos"><p class="ji">Bienvenido a mi historia soy el guia champi</p></div>
+</div>
+<div onclick="document.getElementById('ok3').play(); oculter();">
+<video id="ok3" class="c3" preload="auto" volume="50"/>
+<source src="porkii.mp4" type="video/mp4" />
+</video>
+ <div class="un" id="mus"><p class="ji">hola! soy porki, el mejor amigo de champi</p></div>
+</div>
+<div onclick="document.getElementById('ok4').play(); ocultir();">
+<video id="ok4" class="c4" preload="auto" volume="50"/>
+<source src="samm.mp4" type="video/mp4" />
+</video>
+ <div class="ul" id="mas"><p class="ji">Soy sam, el malo de la historia ja ja ja ja!</p></div>
+</div>
+	</div>
+	</div>
+<div>
+<button class="boton5" onclick="location.href='index.html'">Pagina principal</button>
+</div>
+
+<button onclick="ocultar();"><div class="par"><img src="edipaji.gif" alt=""></div></button>
+
+   
+
+            <script type="text/javascript">
+                function ocultar() {
+                    document.getElementById('mos').style.display="block";
+                }
+                                function oculter() {
+                    document.getElementById('mus').style.display="block";
+                }
+                                function ocultir() {
+                    document.getElementById('mas').style.display="block";
+                }
+
+            </script>
+</body>
+</html>
